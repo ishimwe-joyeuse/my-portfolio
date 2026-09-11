@@ -519,4 +519,22 @@ footer {
   .section {
     padding: 3rem 5%;
   }
+  /* Clickable Certificate Card Link */
+.cert-card-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.cert-view-text {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 }
