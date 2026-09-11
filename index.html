@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ishimwe Joyeuse | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Ishimwe Joyeuse</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="nav-toggle" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero-container">
+      <div class="profile-container">
+        <img src="assets/profile.jpg" alt="Ishimwe Joyeuse Profile Photo" class="profile-img">
+      </div>
+      <h1>Hi, I'm <span class="highlight">Ishimwe Joyeuse</span></h1>
+      <p class="subtitle">IT Student | Information Management</p>
+      <p class="hero-text">
+        Welcome to my portfolio. I am an Information Technology student in the Department of Information Management, interested in web development, data analytics, databases, and information systems. I enjoy using technology and data to solve real-world problems and support better decision-making.
+      </p>
+      <div class="hero-buttons">
+        <a href="assets/Ishimwe_Joyeuse_CV.pdf" class="btn primary-btn" download>
+          <i class="fa-solid fa-download"></i> Download My CV
+        </a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">
+          <i class="fa-brands fa-github"></i> GitHub Profile
+        </a>
+        <a href="https://www.linkedin.com/in/ishimwe-joyeuse-ba2aa5329" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+      I am currently pursuing my studies in Information Technology with a focus on Information Management. Through academic and practical projects, I have developed experience in database management, data analysis, predictive analytics, business intelligence, and web technologies. My goal is to continue developing my technical skills and become a professional who can design and develop useful technology-based solutions.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-solid fa-code skill-icon"></i>
+        <h3>Web & Development</h3>
+        <p>HTML & CSS, JavaScript, Java, Python, C++, Git & GitHub</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-database skill-icon"></i>
+        <h3>Databases & Systems</h3>
+        <p>PostgreSQL / MySQL, PL/SQL, Oracle Database, XAMPP, Database Management</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-network-wired skill-icon"></i>
+        <h3>Networking & Analytics</h3>
+        <p>Networking, Operating Systems, NetOps, IoT, Power BI, Predictive Analytics</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>1. Retail Vendor Performance Analysis</h3>
+        <p>A data analytics project that evaluates vendor performance using procurement metrics such as delivery quality, order quantity, and return rates. A clustering model is used to categorize vendors, with the final insights presented through interactive Power BI dashboards.</p>
+        <div class="tags">
+          <span>Data Analytics</span>
+          <span>Power BI</span>
+          <span>Clustering</span>
+        </div>
+        <a href="https://github.com/yourusername/retail-vendor-performance" target="_blank" rel="noopener noreferrer" class="project-link">
+          Retail Vendor Performance Analysis <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>2. Predictive Analytics on Complex Systems – Disaster Management</h3>
+        <p>A predictive analytics and database system designed to support disaster management. The system centralizes disaster and weather data and uses predictive models to support preparedness, response, mitigation, and decision-making by rescue teams and government agencies.</p>
+        <div class="tags">
+          <span>Predictive Analytics</span>
+          <span>Databases</span>
+          <span>Decision Support</span>
+        </div>
+        <a href="https://github.com/yourusername/predictive-analytics-disaster" target="_blank" rel="noopener noreferrer" class="project-link">
+          Predictive Analytics on Complex Systems <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <h3>3. Uber Fare Analysis – Power BI</h3>
+        <p>A data analytics project using the Uber Fares Dataset to identify trends and patterns in fare amounts, ride durations, and trip times. Python was used for data preparation, while Power BI was used to create an interactive dashboard and present actionable insights.</p>
+        <div class="tags">
+          <span>Python</span>
+          <span>Power BI</span>
+          <span>Data Preparation</span>
+        </div>
+        <a href="https://github.com/yourusername/uber-fare-power-bi" target="_blank" rel="noopener noreferrer" class="project-link">
+          Uber Fare Power BI <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <h3>4. Home Worker Management System</h3>
+        <p>A web-based system that allows households to view available home workers, select a specific worker, and submit an application. The administrator manages worker information and approves or rejects applications.</p>
+        <div class="tags">
+          <span>Web System</span>
+        </div>
+        <span class="project-status">In Development</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Education Background Section -->
+  <section id="education" class="section">
+    <h2 class="section-title">Education Background</h2>
+    
+    <div class="experience-card" style="margin-bottom: 1.5rem;">
+      <h3>Bachelor of Science in Information Technology</h3>
+      <p class="institution">Adventist University of Central Africa (AUCA), Kigali, Rwanda</p>
+      <p class="meta">Department: Information Management | 2023 – 2024 (Expected Graduation: November 2027)</p>
+    </div>
+
+    <div class="experience-card" style="margin-bottom: 1.5rem;">
+      <h3>Advanced Level Certificate of Secondary Education</h3>
+      <p class="institution">Lycée Notre Dame de la Visitation</p>
+      <p class="meta">Combination: Mathematics, Economics and Geography (MEG) | 2019 – 2020</p>
+    </div>
+
+    <div class="experience-card">
+      <h3>Ordinary Level Certificate</h3>
+      <p class="institution">Institute For Women Excellence Girls School, Western Province</p>
+      <p class="meta">2015 – 2018</p>
+    </div>
+  </section>
+
+  <!-- Working Experience Section -->
+  <section id="experience" class="section">
+    <h2 class="section-title">Working Experience</h2>
+    <div class="experience-card">
+      <h3>Profiling Project Data Officer</h3>
+      <p class="institution">Instructed by Government of Rwanda</p>
+      <p class="meta">March 2023 – December 2023</p>
+      <ul class="experience-list">
+        <li>Worked for the official national PROFILING project tasked by the Government of Rwanda.</li>
+        <li>Participated in data collection, organization, and validation for demographic mapping.</li>
+        <li>Collaborated within field operations teams to maintain high data accuracy standards.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Cisco Certifications Section -->
+  <section id="certificates" class="section">
+    <h2 class="section-title">Certificates</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-solid fa-certificate skill-icon"></i>
+        <h3>Networking</h3>
+        <p>Certificate of Course Completion in Networking issued by Cisco.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-desktop skill-icon"></i>
+        <h3>Operating Systems</h3>
+        <p>Certificate of Course Completion in Operating System issued by Cisco.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-wifi skill-icon"></i>
+        <h3>Internet of Things (IoT)</h3>
+        <p>Certificate of Course Completion in Internet of Things (IoT) issued by Cisco.</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-network-wired skill-icon"></i>
+        <h3>NetOps</h3>
+        <p>Certificate of Network Operation (NetOps) issued by Cisco.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-card">
+      <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:ishimwejoyeuse177@gmail.com">ishimwejoyeuse177@gmail.com</a></p>
+      <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+250792011651">+250 792 011 651</a></p>
+      <p><i class="fa-brands fa-github"></i> GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">github.com/yourusername</a></p>
+      <p><i class="fa-brands fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/ishimwe-joyeuse-ba2aa5329" target="_blank" rel="noopener noreferrer">linkedin.com/in/ishimwe-joyeuse-ba2aa5329</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Ishimwe Joyeuse. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
